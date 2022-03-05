@@ -67,6 +67,8 @@ let favoriteThings = {
 
 //Code here
 
+favoriteThings['car'] = 'porche'
+favoriteThings ['show'] = 'Diners, Drive-ins, and dives'
 
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
@@ -75,7 +77,8 @@ let favoriteThings = {
 
 //Code here
 
-
+favoriteThings['food'] = 'Chicken nuggets'
+favoriteThings.book = 'Fahrenheit 451'
 
 
 //////////////////////////// PROBLEM 6 ////////////////////////////
