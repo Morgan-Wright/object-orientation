@@ -98,7 +98,7 @@ var carDetails = {
 
 //Code Here
 
-
+const {color, make, model, year} = car
 
 //////////////////////////// PROBLEM 7 ////////////////////////////
 
@@ -110,6 +110,8 @@ var carDetails = {
 
 function greeting( obj ) {
   //Code Here
+  
+
   
   // Do not edit the code below.
   return 'Hello, ' + title + ' ' + firstName + ' ' + lastName + '!';
