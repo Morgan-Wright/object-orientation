@@ -6,6 +6,10 @@
 
 //Code here
 
+const Me = {
+  name: 'Morgan Wright',
+  age: '21'
+}
 
 //////////////////////////// PROBLEM 2 ////////////////////////////
 
@@ -16,11 +20,19 @@
 
 //Code here
 
+let dog = {
+  name: 'ruffas',
+  color: 'brown',
+  age: 4,
+  goodDog: true
+}
+
 
 //////////////////////////// PROBLEM 3 ////////////////////////////
 /* Print out the name of the dog you created in problem 2 using dot-notation. */
 
 //Code here
+
 
 
 
@@ -31,6 +43,7 @@
 
 
 
+
 //////////////////////////// PROBLEM 5 ////////////////////////////
 /*
   Make a 'favoriteThings' object that contains the following keys: band, food, person, book, movie, holiday.
@@ -38,6 +51,7 @@
 */
 
 //Code here
+
 
 
 /*
@@ -53,6 +67,8 @@
 */
 
 //Code here
+
+
 
 
 //////////////////////////// PROBLEM 6 ////////////////////////////
