@@ -33,7 +33,7 @@ let dog = {
 
 //Code here
 
-
+console.log(dog.name)
 
 
 //////////////////////////// PROBLEM 4 ////////////////////////////
