@@ -132,6 +132,12 @@ let {firstName, lastName, title} = obj
 
 //Code Here
 
+function totalPopulation(obj){
+  const {utah, california, texas, arizona} = obj
+  const total = utah + california + texas + arizona
+  return total
+}
+
 
 
 //////////////////////////// PROBLEM 9 ////////////////////////////
