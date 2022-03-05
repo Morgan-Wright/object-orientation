@@ -41,7 +41,7 @@ console.log(dog.name)
 
 //Code here
 
-
+console.log(dog['color'])
 
 
 //////////////////////////// PROBLEM 5 ////////////////////////////
