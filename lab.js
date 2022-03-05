@@ -222,21 +222,21 @@ console.log(cat.name)
 
 //Code here
 
-class wizard {
-  constructor(name, age, favoriteSpell) {
-    this.name = name
-    this.age = age
-    this.favoriteSpell = favoriteSpell
-  }
-}
+// class wizard {
+//   constructor(name, age, favoriteSpell) {
+//     this.name = name
+//     this.age = age
+//     this.favoriteSpell = favoriteSpell
+//   }
+// }
 
-function castSpell() {
-  console.log(`${name} has cast ${favoriteThings}`)
-}
+// function castSpell() {
+//   console.log(`${name} has cast ${favoriteThings}`)
+// }
 
-const JJ = new Wizard('JJ', 4693, 'hocus pocus')
+// const JJ = new Wizard('JJ', 4693, 'hocus pocus')
 
-jj.castSpell()
+// jj.castSpell()
 
 //////////////////////////// PROBLEM 14 ////////////////////////////
 /*
@@ -263,6 +263,23 @@ jj.castSpell()
 
 //Code Here
 
+class Phone {
+  constructor(brand, model, storage, color, price){
+    this.brand = brand
+    this.model = model
+    this.storage = storage
+    this.color = color
+    this.price = price
+    this.sold = false
+  }
+  sell(){
+    this.sold = true
+    console.log(`${this.brand} ${this.model} has been sold`)
+  }
+  changeprice(newPrice){
+    this.price = newPrice
+  }
+}    
   
 /*
     Next make three new phone instances using your class.
@@ -275,6 +292,10 @@ jj.castSpell()
 */
 
 //Code Here
+let phoneOne = new Phone('apple', 'iphone 8', 256, 'white', 895)
+let phoneTwo = new Phone('samsung', 'galaxy', 1024, 'black', 999)
+let phoneThree = new Phone('lg', 'g6', 500, 'blue', 750)
+
 
 /* 
   Call the changePrice function on one of your phones, 
@@ -284,6 +305,9 @@ jj.castSpell()
 */ 
 
 //Code Here 
+phoneOne.changeprice(1099)
+
+console.log(phoneOne)
 
 
 /*
@@ -294,6 +318,9 @@ jj.castSpell()
 
 //Code Here 
 
+phoneTwo.sell()
+
+console.log(phoneOne.sold)
 
 //////////////////////////// PROBLEM 15 ////////////////////////////
 
