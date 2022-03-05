@@ -6,10 +6,10 @@
 
 //Code here
 
-const Me = {
-  name: 'Morgan Wright',
-  age: '21'
-}
+// const Me = {
+//   name: 'Morgan Wright',
+//   age: '21'
+// }
 
 //////////////////////////// PROBLEM 2 ////////////////////////////
 
@@ -20,12 +20,12 @@ const Me = {
 
 //Code here
 
-let dog = {
-  name: 'ruffas',
-  color: 'brown',
-  age: 4,
-  goodDog: true
-}
+// let dog = {
+//   name: 'ruffas',
+//   color: 'brown',
+//   age: 4,
+//   goodDog: true
+// }
 
 
 //////////////////////////// PROBLEM 3 ////////////////////////////
@@ -33,7 +33,7 @@ let dog = {
 
 //Code here
 
-console.log(dog.name)
+// console.log(dog.name)
 
 
 //////////////////////////// PROBLEM 4 ////////////////////////////
@@ -41,7 +41,7 @@ console.log(dog.name)
 
 //Code here
 
-console.log(dog['color'])
+// console.log(dog['color'])
 
 
 //////////////////////////// PROBLEM 5 ////////////////////////////
@@ -52,14 +52,14 @@ console.log(dog['color'])
 
 //Code here
 
-let favoriteThings = {
-  band: 'Angelmaker',
-  food: 'Curry',
-  person: 'wife',
-  book: '1984',
-  movie: 'Kentucky fried movie',
-  holiday: 'thanksgiving',
-}
+// let favoriteThings = {
+//   band: 'Angelmaker',
+//   food: 'Curry',
+//   person: 'wife',
+//   book: '1984',
+//   movie: 'Kentucky fried movie',
+//   holiday: 'thanksgiving',
+// }
 
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car and then another key named 'show' with the value being your favorite show.
@@ -67,8 +67,8 @@ let favoriteThings = {
 
 //Code here
 
-favoriteThings['car'] = 'porche'
-favoriteThings ['show'] = 'Diners, Drive-ins, and dives'
+// favoriteThings['car'] = 'porche'
+// favoriteThings ['show'] = 'Diners, Drive-ins, and dives'
 
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
@@ -77,19 +77,19 @@ favoriteThings ['show'] = 'Diners, Drive-ins, and dives'
 
 //Code here
 
-favoriteThings['food'] = 'Chicken nuggets'
-favoriteThings.book = 'Fahrenheit 451'
+// favoriteThings['food'] = 'Chicken nuggets'
+// favoriteThings.book = 'Fahrenheit 451'
 
 
 //////////////////////////// PROBLEM 6 ////////////////////////////
 
 // Do not edit the code below.
-var carDetails = {
-  color: 'red',
-  make: 'toyota',
-  model: 'tacoma',
-  year: 1994
-}
+// var carDetails = {
+  // color: 'red',
+  // make: 'toyota',
+  // model: 'tacoma',
+  // year: 1994
+// }
 // Do not edit the code above.
 
 /*
@@ -98,7 +98,7 @@ var carDetails = {
 
 //Code Here
 
-const {color, make, model, year} = car
+// const {color, make, model, year} = car
 
 //////////////////////////// PROBLEM 7 ////////////////////////////
 
@@ -108,15 +108,15 @@ const {color, make, model, year} = car
   The property names are firstName, lastName, and title.
 */
 
-function greeting( obj ) {
-  //Code Here
+// function greeting( obj ) {
+  // Code Here
   
-let {firstName, lastName, title} = obj
+// let {firstName, lastName, title} = obj
 
   // Do not edit the code below.
-  return 'Hello, ' + title + ' ' + firstName + ' ' + lastName + '!';
+  // return 'Hello, ' + title + ' ' + firstName + ' ' + lastName + '!';
   // Do not edit the code above.
-}
+// }
 
 
 
@@ -132,11 +132,11 @@ let {firstName, lastName, title} = obj
 
 //Code Here
 
-function totalPopulation(obj){
-  const {utah, california, texas, arizona} = obj
-  const total = utah + california + texas + arizona
-  return total
-}
+// function totalPopulation(obj){
+//   const {utah, california, texas, arizona} = obj
+//   const total = utah + california + texas + arizona
+//   return total
+// }
 
 
 
@@ -152,10 +152,10 @@ function totalPopulation(obj){
 
 //Code Here
 
-function ingredients(obj){
-  const {carb, fat, protien} = obj
-  return [carb, fat, protien]
-}
+// function ingredients(obj){
+//   const {carb, fat, protien} = obj
+//   return [carb, fat, protien]
+// }
 
 
 //////////////////////////// PROBLEM 10 ////////////////////////////
@@ -189,6 +189,8 @@ user['email'] = 'bryan.smith@devmounta.in'
 
 //Code Here
 
+delete user.age
+console.log(user)
 
 //////////////////////////// PROBLEM 12 ////////////////////////////
 /*
