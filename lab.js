@@ -160,14 +160,14 @@
 
 //////////////////////////// PROBLEM 10 ////////////////////////////
 // Do not edit the code below.
-var user = {
-  name: 'Bryan',
-  age: 24,
-  pwHash: 'U+Ldlngx2BYQk',
-  email: 'BryanSmith33@gmail.com',
-  birthday: '05/02/1990',
-  username: 'bryansmith33'
-};
+// var user = {
+//   name: 'Bryan',
+//   age: 24,
+//   pwHash: 'U+Ldlngx2BYQk',
+//   email: 'BryanSmith33@gmail.com',
+//   birthday: '05/02/1990',
+//   username: 'bryansmith33'
+// };
 // Do not edit the code above.
 
 /*
@@ -178,8 +178,8 @@ var user = {
 
 //Code Here
 
-user['name'] = 'Bryan G. Smith'
-user['email'] = 'bryan.smith@devmounta.in'
+// user['name'] = 'Bryan G. Smith'
+// user['email'] = 'bryan.smith@devmounta.in'
 
 
 //////////////////////////// PROBLEM 11 ////////////////////////////
@@ -189,8 +189,8 @@ user['email'] = 'bryan.smith@devmounta.in'
 
 //Code Here
 
-delete user.age
-console.log(user)
+// delete user.age
+// console.log(user)
 
 //////////////////////////// PROBLEM 12 ////////////////////////////
 /*
@@ -201,7 +201,16 @@ console.log(user)
 
 //Code here
 
+class Cat{
+  constructor(name, age, color){
+    this.name = name
+    this.age = age
+    this.color = color
+  }
+}
+const whiskers = new Cat('whiskers', 14, 'tabby')
 
+console.log(cat.name)
 
 //////////////////////////// PROBLEM 13 ////////////////////////////
 /*
