@@ -222,6 +222,22 @@ console.log(cat.name)
 
 //Code here
 
+class wizard {
+  constructor(name, age, favoriteSpell) {
+    this.name = name
+    this.age = age
+    this.favoriteSpell = favoriteSpell
+  }
+}
+
+function castSpell() {
+  console.log(`${name} has cast ${favoriteThings}`)
+}
+
+const JJ = new Wizard('JJ', 4693, 'hocus pocus')
+
+jj.castSpell()
+
 //////////////////////////// PROBLEM 14 ////////////////////////////
 /*
     Write a class called Phone. We'll use it as if we were creating
