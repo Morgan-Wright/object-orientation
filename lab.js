@@ -201,16 +201,16 @@
 
 //Code here
 
-class Cat{
-  constructor(name, age, color){
-    this.name = name
-    this.age = age
-    this.color = color
-  }
-}
-const whiskers = new Cat('whiskers', 14, 'tabby')
+// class Cat{
+//   constructor(name, age, color){
+//     this.name = name
+//     this.age = age
+//     this.color = color
+//   }
+// }
+// const whiskers = new Cat('whiskers', 14, 'tabby')
 
-console.log(cat.name)
+// console.log(whiskers.name)
 
 //////////////////////////// PROBLEM 13 ////////////////////////////
 /*
@@ -263,23 +263,23 @@ console.log(cat.name)
 
 //Code Here
 
-class Phone {
-  constructor(brand, model, storage, color, price){
-    this.brand = brand
-    this.model = model
-    this.storage = storage
-    this.color = color
-    this.price = price
-    this.sold = false
-  }
-  sell(){
-    this.sold = true
-    console.log(`${this.brand} ${this.model} has been sold`)
-  }
-  changeprice(newPrice){
-    this.price = newPrice
-  }
-}    
+// class Phone {
+//   constructor(brand, model, storage, color, price){
+//     this.brand = brand
+//     this.model = model
+//     this.storage = storage
+//     this.color = color
+//     this.price = price
+//     this.sold = false
+//   }
+//   sell(){
+//     this.sold = true
+//     console.log(`${this.brand} ${this.model} has been sold`)
+//   }
+//   changeprice(newPrice){
+//     this.price = newPrice
+//   }
+// }    
   
 /*
     Next make three new phone instances using your class.
@@ -292,9 +292,9 @@ class Phone {
 */
 
 //Code Here
-let phoneOne = new Phone('apple', 'iphone 8', 256, 'white', 895)
-let phoneTwo = new Phone('samsung', 'galaxy', 1024, 'black', 999)
-let phoneThree = new Phone('lg', 'g6', 500, 'blue', 750)
+// let phoneOne = new Phone('apple', 'iphone 8', 256, 'white', 895)
+// let phoneTwo = new Phone('samsung', 'galaxy', 1024, 'black', 999)
+// let phoneThree = new Phone('lg', 'g6', 500, 'blue', 750)
 
 
 /* 
@@ -305,9 +305,9 @@ let phoneThree = new Phone('lg', 'g6', 500, 'blue', 750)
 */ 
 
 //Code Here 
-phoneOne.changeprice(1099)
+// phoneOne.changeprice(1099)
 
-console.log(phoneOne)
+// console.log(phoneOne)
 
 
 /*
@@ -318,9 +318,9 @@ console.log(phoneOne)
 
 //Code Here 
 
-phoneTwo.sell()
+// phoneTwo.sell()
 
-console.log(phoneOne.sold)
+// console.log(phoneOne.sold)
 
 //////////////////////////// PROBLEM 15 ////////////////////////////
 
@@ -340,6 +340,7 @@ const colors = {
 
 //Code Here 
 
+const colorsCopy = {...colors}
 
 
 /*
@@ -368,9 +369,11 @@ const shippingInfo = {
 
 //Code Here
 
+const helensInfo = {...contactInfo, ...shippingInfo}
 
 //Print helensInfo to see what it looks like, there should be no repeating properties.
 
+console.log(helensInfo)
 
 //////////////////////////// PROBLEM 16 ////////////////////////////
 
